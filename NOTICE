@@ -1,11 +1,10 @@
-Versatile Object-oriented Toolkit for Coarse-graining Applications
-Copyright 2009-2011 The VOTCA Development Team
-
-This product includes software developed at
-The VOTCA Development Team (http://www.votca.org).
-
-This software contains code, in particular function_common.sh, derived 
-from a script collection by C. Junghans.
-
-Thanks to Nikolaus Hansen (hansen@lri.fr, @nikohansen on github) for 
-providing the bundled version of cma.py, which is licensed under BSD 3-Clause.
+Multiple files in the potential*.cc, potential*.h, csg_reupdated*, and scripts are modified. 
+This code is derived from the original VOTCA source code v2.0 licensed under Apacche-2.0 license, which can be found at www.votca.org
+Due to lack of time at the moment, I cannot support the code. 
+Note:
+;      A clean version of codes (without binaries) will be replaced with the current repository hopefully by end of July 2018.
+Disclaimer  : 
+;      While every effort has been made to ensure the accuracy and validity of all work in this repository, 
+;      The author cannot guarantee its working for use in any specific application. Users are advised to 
+;      treat these codes with discretion and to perform additional validation tests for their specific 
+;      application if required. 
