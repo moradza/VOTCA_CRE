@@ -1,0 +1,12 @@
+prefix=/u/sciteam/moradzad/bin/votca
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libvotca_csg
+Description: csg functions of the votca package
+URL: http://www.votca.org
+Version: 
+Requires: libvotca_tools 
+Libs: -L${libdir} -lvotca_csg -L/sw/xe/boost/1.53.0/sles11.3_gnu4.8.2/lib -lboost_program_options -lboost_filesystem -lboost_system 
+Libs.private: -lm
+Cflags: -I${includedir} -I/sw/xe/boost/1.53.0/sles11.3_gnu4.8.2/include
